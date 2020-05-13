@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="codelife-comment-provider8002" />
+        <module name="codelife-common-api" />
+        <module name="codelife-dfs9001" />
+        <module name="codelife-gateway9527" />
+        <module name="codelife-manager7000" />
+        <module name="codelife-member-provider8003" />
+        <module name="codelife-passport9000" />
+        <module name="codelife-question-provider8001" />
+        <module name="codelife-search-8004" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="code-question-consumer7001" target="1.8" />
+      <module name="codelife-comment-provicer8002" target="1.8" />
+      <module name="codelife-comment8002" target="1.8" />
+      <module name="codelife-question-consumer7001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

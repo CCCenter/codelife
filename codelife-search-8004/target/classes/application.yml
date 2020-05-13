@@ -1,0 +1,22 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: search
+  cloud:
+    nacos:
+      discovery: #Nacos注册中心地址
+        server-addr: localhost:8848
+  http:
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+  elasticsearch:
+    jest:
+      uris: http://192.168.142.132:9200
+
+feign:
+  hystrix:
+    enabled: true

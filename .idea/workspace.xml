@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="731afbf1-6d9f-4221-aef7-adc9a382b57e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/code-common-api/target/" />
+    <ignored path="$PROJECT_DIR$/code-question-provider8001/target/" />
+    <ignored path="$PROJECT_DIR$/code-question-consumer7001/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-question-provider8001/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-common-api/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-comment8002/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-comment-provicer8002/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-question-consumer7001/target/" />
+    <ignored path="$PROJECT_DIR$/cloudlife-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-comment-provider8002/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-gateway9527/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-passport9000/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-member-provider8003/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <ignored path="$PROJECT_DIR$/codelife-search-8004/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-dfs9001/target/" />
+    <ignored path="$PROJECT_DIR$/codelife-manager7000/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-230645549">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="83" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="37" />
+          <entry key="project.open.time.103" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.153" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.2" value="17" />
+          <entry key="project.open.time.3" value="7" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="2" />
+          <entry key="project.open.time.52" value="2" />
+          <entry key="project.open.time.53" value="4" />
+          <entry key="project.open.time.55" value="4" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.57" value="3" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.63" value="2" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.66" value="2" />
+          <entry key="project.open.time.67" value="2" />
+          <entry key="project.open.time.68" value="2" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.71" value="2" />
+          <entry key="project.open.time.72" value="2" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.75" value="2" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.open.time.81" value="2" />
+          <entry key="project.open.time.82" value="1" />
+          <entry key="project.open.time.90" value="2" />
+          <entry key="project.open.time.91" value="1" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.open.time.97" value="1" />
+          <entry key="project.open.time.99" value="1" />
+          <entry key="project.opened" value="120" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="25582" />
+          <entry key="xml" value="1085" />
+          <entry key="yml" value="586" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="25582" />
+          <entry key="SQL" value="21" />
+          <entry key="XML" value="1064" />
+          <entry key="YAML" value="586" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="31" />
+          <entry key="conf" value="1" />
+          <entry key="java" value="895" />
+          <entry key="pom" value="4" />
+          <entry key="xml" value="94" />
+          <entry key="yml" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="31" />
+          <entry key="JAVA" value="895" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="98" />
+          <entry key="YAML" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages">
+        <counts>
+          <entry key="RestClientRequestRunnerNavigator.fromCode" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hash</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs9001.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/fastdfs.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/controller/dfsController.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/controller/DfsController.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/util/FileUtils.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/util/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/pom.xml" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/config/ComponetImport.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/util/FastdfsClientUtil.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/util/FastDFSClientUtil.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/test/java/com/codelife/cloud/dfs/util/FastdfsClientUtilTest.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/util/FileDfsUtils.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/service/impl/MemberService.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/pom.xml" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager7000.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/ManagerService.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/service/impl/ManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/controller/MamagerController.java" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/controller/ManagerController.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/PageDTO.java" />
+        <option value="$PROJECT_DIR$/codelife-member-provider8003/pom.xml" />
+        <option value="$PROJECT_DIR$/codelife-common-api/pom.xml" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/codelife-comment-provider8002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/codelife-passport9000/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/codelife-passport9000/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/QuestionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/CommentDTO.java" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/controller/FileManageController.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/MemberDTO.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Member.java" />
+        <option value="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/Manager7000.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/inteceptor/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/service/impl/CommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/controller/ManagerController.java" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/PassportController.java" />
+        <option value="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-25" />
+    <option name="y" value="-25" />
+    <option name="width" value="1710" />
+    <option name="height" value="1105" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589371187368" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/codelife-common-api/src/main/java/com" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34717417" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.codelife.cloud.dfs.util" />
+      <recent name="com.codelife.cloud.member.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codelife.cloud.member.util" />
+      <recent name="com.codelife.cloud.util" />
+      <recent name="com.codelife.cloud.comment.mapper" />
+      <recent name="com.codelife.cloud.comment.controller" />
+      <recent name="com.codelife.cloud.member.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaworkSpaces\codelife\codelife-question-provider8001\src\main\java\com\codelife\cloud\question" />
+      <recent name="E:\ideaworkSpaces\codelife\codelife-passport9000\src\main\java\com\codelife\cloud\passport" />
+      <recent name="E:\ideaworkSpaces\codelife\codelife-comment-provider8002\src\main\java\com\codelife\cloud\comment" />
+      <recent name="E:\ideaworkSpaces\codelife\codelife-comment-provider8002\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.23565574" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.QuestionService8001">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="codelife-comment-provicer8002" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="codelife-comment-provicer8002" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberProvider8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="codelife-member-provider8003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codelife.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.MemberProvider8003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Passport9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="codelife-passport9000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codelife.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.Passport9000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionService8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="codelife-question-provider8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codelife.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.QuestionService8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Search8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="codelife-search-8004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codelife.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.Search8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dfs9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="codelife-dfs9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codelife.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.dfs9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MemberProvider8003" />
+      <item itemvalue="Spring Boot.Passport9000" />
+      <item itemvalue="Spring Boot.dfs9001" />
+      <item itemvalue="Spring Boot.Search8004" />
+      <item itemvalue="Spring Boot.QuestionService8001" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.QuestionService8001" />
+        <item itemvalue="Spring Boot.MemberProvider8003" />
+        <item itemvalue="Spring Boot.Search8004" />
+        <item itemvalue="Spring Boot.dfs9001" />
+        <item itemvalue="Spring Boot.Passport9000" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="731afbf1-6d9f-4221-aef7-adc9a382b57e" name="Default Changelist" comment="" />
+      <created>1585035963965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585035963965</updated>
+      <workItem from="1585035965856" duration="633000" />
+      <workItem from="1585036788436" duration="1935000" />
+      <workItem from="1585042760652" duration="6121000" />
+      <workItem from="1585056083249" duration="2114000" />
+      <workItem from="1585060271029" duration="176000" />
+      <workItem from="1585060805889" duration="395000" />
+      <workItem from="1585061242187" duration="61000" />
+      <workItem from="1585061342028" duration="73000" />
+      <workItem from="1585061460087" duration="1495000" />
+      <workItem from="1585063021158" duration="665000" />
+      <workItem from="1585063792665" duration="160000" />
+      <workItem from="1585063994534" duration="139000" />
+      <workItem from="1585064210096" duration="312000" />
+      <workItem from="1585064649622" duration="642000" />
+      <workItem from="1585065358735" duration="555000" />
+      <workItem from="1585066247151" duration="475000" />
+      <workItem from="1585066801156" duration="17000" />
+      <workItem from="1585066840227" duration="866000" />
+      <workItem from="1585067787763" duration="3671000" />
+      <workItem from="1585118942761" duration="6494000" />
+      <workItem from="1585136927972" duration="773000" />
+      <workItem from="1585146459904" duration="1016000" />
+      <workItem from="1585148076351" duration="938000" />
+      <workItem from="1585204995607" duration="1640000" />
+      <workItem from="1585208094423" duration="2828000" />
+      <workItem from="1585212094631" duration="1666000" />
+      <workItem from="1585214099084" duration="20285000" />
+      <workItem from="1585239844804" duration="916000" />
+      <workItem from="1585272191079" duration="687000" />
+      <workItem from="1585305780493" duration="1613000" />
+      <workItem from="1585319527002" duration="780000" />
+      <workItem from="1585320477521" duration="9165000" />
+      <workItem from="1585362824184" duration="200000" />
+      <workItem from="1585363156027" duration="26000" />
+      <workItem from="1585363212390" duration="122000" />
+      <workItem from="1585363699536" duration="369000" />
+      <workItem from="1585364108559" duration="611000" />
+      <workItem from="1585376068585" duration="2555000" />
+      <workItem from="1585386876832" duration="22615000" />
+      <workItem from="1585461322355" duration="1485000" />
+      <workItem from="1585554215569" duration="3465000" />
+      <workItem from="1585560975140" duration="13460000" />
+      <workItem from="1585582095457" duration="4196000" />
+      <workItem from="1585640031886" duration="10000" />
+      <workItem from="1585640497218" duration="12540000" />
+      <workItem from="1585827009335" duration="1026000" />
+      <workItem from="1586153891133" duration="136000" />
+      <workItem from="1586161764317" duration="1781000" />
+      <workItem from="1586185166605" duration="589000" />
+      <workItem from="1586269010087" duration="1165000" />
+      <workItem from="1586335486081" duration="78000" />
+      <workItem from="1586355025277" duration="181000" />
+      <workItem from="1586357575100" duration="2905000" />
+      <workItem from="1586594641748" duration="1790000" />
+      <workItem from="1586846021098" duration="1288000" />
+      <workItem from="1587045687033" duration="3926000" />
+      <workItem from="1587099497232" duration="221000" />
+      <workItem from="1587127953907" duration="4161000" />
+      <workItem from="1587200686129" duration="1993000" />
+      <workItem from="1587203557955" duration="81000" />
+      <workItem from="1587203669041" duration="1918000" />
+      <workItem from="1587264053007" duration="5156000" />
+      <workItem from="1587287419167" duration="1065000" />
+      <workItem from="1587290001596" duration="450000" />
+      <workItem from="1587290475123" duration="103000" />
+      <workItem from="1587290629330" duration="1356000" />
+      <workItem from="1587306774265" duration="938000" />
+      <workItem from="1587308352751" duration="39000" />
+      <workItem from="1587308465542" duration="353000" />
+      <workItem from="1587344509958" duration="5251000" />
+      <workItem from="1587353366219" duration="3579000" />
+      <workItem from="1587368862488" duration="1589000" />
+      <workItem from="1587548309217" duration="12804000" />
+      <workItem from="1587605574877" duration="7055000" />
+      <workItem from="1587645638628" duration="11122000" />
+      <workItem from="1587702324712" duration="24907000" />
+      <workItem from="1587804258899" duration="7254000" />
+      <workItem from="1587870043430" duration="962000" />
+      <workItem from="1587886832127" duration="7013000" />
+      <workItem from="1587897634364" duration="1432000" />
+      <workItem from="1587902051770" duration="3021000" />
+      <workItem from="1587911468513" duration="1772000" />
+      <workItem from="1587924903407" duration="3787000" />
+      <workItem from="1587973617870" duration="1639000" />
+      <workItem from="1587975492460" duration="4495000" />
+      <workItem from="1587988462476" duration="10499000" />
+      <workItem from="1588090769322" duration="4355000" />
+      <workItem from="1588168350567" duration="9843000" />
+      <workItem from="1588224695873" duration="1472000" />
+      <workItem from="1588226293119" duration="4058000" />
+      <workItem from="1588230397556" duration="7518000" />
+      <workItem from="1588238002945" duration="4335000" />
+      <workItem from="1588243804506" duration="1166000" />
+      <workItem from="1588262562537" duration="24000" />
+      <workItem from="1588262775590" duration="1816000" />
+      <workItem from="1588264628430" duration="9870000" />
+      <workItem from="1588306380214" duration="4141000" />
+      <workItem from="1588403806573" duration="647000" />
+      <workItem from="1588427968128" duration="6821000" />
+      <workItem from="1588484759160" duration="17034000" />
+      <workItem from="1588564149581" duration="4656000" />
+      <workItem from="1588579013054" duration="1293000" />
+      <workItem from="1588648786964" duration="658000" />
+      <workItem from="1588746902703" duration="1338000" />
+      <workItem from="1588755281699" duration="5432000" />
+      <workItem from="1588835143566" duration="8466000" />
+      <workItem from="1588860172139" duration="2112000" />
+      <workItem from="1588868520667" duration="1355000" />
+      <workItem from="1588869975915" duration="6162000" />
+      <workItem from="1588877177842" duration="2056000" />
+      <workItem from="1588912004674" duration="6455000" />
+      <workItem from="1588919234968" duration="10706000" />
+      <workItem from="1588931587883" duration="6694000" />
+      <workItem from="1588996770512" duration="2381000" />
+      <workItem from="1589002334832" duration="140000" />
+      <workItem from="1589002851170" duration="22089000" />
+      <workItem from="1589128485474" duration="4254000" />
+      <workItem from="1589178035596" duration="21379000" />
+      <workItem from="1589246696552" duration="24215000" />
+      <workItem from="1589337084841" duration="8592000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test - 2020.05.09 at 15h 24m 05s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test1 - 2020.05.09 at 15h 25m 05s.xml">
+      <configuration name="test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test1 - 2020.05.09 at 15h 25m 22s.xml">
+      <configuration name="test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test1 - 2020.05.09 at 15h 25m 36s.xml">
+      <configuration name="test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test1 - 2020.05.09 at 15h 30m 19s.xml">
+      <configuration name="test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test1 - 2020.05.09 at 15h 30m 44s.xml">
+      <configuration name="test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test1 - 2020.05.09 at 15h 31m 39s.xml">
+      <configuration name="test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2020.05.09 at 15h 33m 42s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemberServiceImplTest_test1 - 2020.05.09 at 15h 34m 10s.xml">
+      <configuration name="MemberServiceImplTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemberServiceImplTest_test1 - 2020.05.09 at 15h 34m 33s.xml">
+      <configuration name="MemberServiceImplTest.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="485373000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21983914" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32796487" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5013405" side_tool="true" weight="0.34017596" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32844576" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.31231672" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.398827" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32844576" />
+      <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.49932975" weight="0.25073314" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49932975" weight="0.32844576" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932975" weight="0.32844576" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49865952" weight="0.30307466" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.22788204" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/service/impl/QuestionServiceImpl.java</url>
+          <line>40</line>
+          <properties class="com.codelife.cloud.passport.service.impl.QuestionServiceImpl">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/controller/CommentController.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/controller/PassportController.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/controller/PassportController.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/5.3.3/jest-common-5.3.3-sources.jar!/io/searchbox/core/SearchResult.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/5.3.3/jest-common-5.3.3-sources.jar!/io/searchbox/core/SearchResult.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/5.3.3/jest-common-5.3.3-sources.jar!/io/searchbox/core/SearchResult.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/5.3.3/jest-common-5.3.3-sources.jar!/io/searchbox/core/SearchResult.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/searchbox/jest-common/5.3.3/jest-common-5.3.3-sources.jar!/io/searchbox/core/SearchResult.java</url>
+          <line>146</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>source</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>hitElement.isJsonObject()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>obj.getAsJsonArray()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>obj.isJsonArray()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>obj.isJsonObject()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Map map = objectMapper.convertValue(o, Map.class);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>objectMapper.convertValue(o, Map.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSON.parseObject(searchResult.getJsonObject().get(&quot;hits&quot;).toString()).get(&quot;hits&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.alibaba.fastjson.JSON,com.codelife.cloud.dto.QuestionDTO</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>JSON.parseObject(JSON.parseObject(searchResult.getJsonObject().get(&quot;hits&quot;).toString()).get(&quot;hits&quot;).toString())</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.alibaba.fastjson.JSON,com.codelife.cloud.dto.QuestionDTO</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/OauthCheckDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-manager7000/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="900" selection-start-line="900" selection-end-line="900" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="950" selection-start-line="950" selection-end-line="950" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1012" selection-start-line="1012" selection-end-line="1012" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/MemberProvider8003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/PageDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/CommentService8002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/Passport9000.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/QuestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="62" column="45" lean-forward="true" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs9001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/controller/FileManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/MemberService.java" />
+    <entry file="file://$PROJECT_DIR$/codelife-comment-provider8002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/Manager7000.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.2.0/mybatis-plus-core-3.2.0-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="183" column="7" lean-forward="true" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE-sources.jar!/org/springframework/web/bind/annotation/PathVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/MemberDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/impl/ManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/CommentDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/service/impl/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="57" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="25" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/inteceptor/MyInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="14" selection-start-line="14" selection-end-line="22" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/PassportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/QuestionService8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/controller/PassportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="39" column="59" lean-forward="true" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="65" column="4" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.34717417" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>codelife-manager7000</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.34717417" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

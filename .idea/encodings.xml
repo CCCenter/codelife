@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codelife-comment-provider8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codelife-common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codelife-dfs9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codelife-gateway9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codelife-manager7000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codelife-member-provider8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codelife-passport9000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codelife-question-provider8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/codelife-search-8004" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

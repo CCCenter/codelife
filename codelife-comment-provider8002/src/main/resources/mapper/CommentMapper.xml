@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.codelife.cloud.comment.mapper.CommentMapper">
+
+    <resultMap id="BaseResultMap" type="com.codelife.cloud.entities.Comment" autoMapping="true">
+        <id column="id" property="id" jdbcType="BIGINT"></id>
+    </resultMap>
+
+    <update id="incLikeCount" parameterType="com.codelife.cloud.entities.Comment">
+        update
+          comment
+        set
+          like_count = like_count + #{likeCount}
+        where
+          id = #{id}
+    </update>
+
+    <update id="incCommentCount" parameterType="com.codelife.cloud.entities.Comment">
+        update
+          comment
+        set
+          comment_count = comment_count + #{commentCount}
+        where
+          id = #{id}
+    </update>
+</mapper>

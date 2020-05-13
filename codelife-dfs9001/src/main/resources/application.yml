@@ -1,0 +1,11 @@
+server:
+  port: 9001
+
+fdfs:
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image:             #缩略图生成参数
+    width: 200
+    height: 200
+  tracker-list:            #TrackerList参数,支持多个
+  - 192.168.142.132:22122

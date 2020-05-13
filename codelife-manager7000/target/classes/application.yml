@@ -1,0 +1,10 @@
+server:
+  port: 7000
+
+spring:
+  application:
+    name: manager-service
+  cloud:
+    nacos:
+      discovery: #Nacos注册中心地址
+        server-addr: localhost:8848
