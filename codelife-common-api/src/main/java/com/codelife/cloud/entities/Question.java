@@ -18,7 +18,8 @@ public class Question implements Serializable {
     private String title;
     @JsonSerialize(using = ToStringSerializer.class)
     private Long memberId;
-    private String content;
+    private String valueContent;
+    private String htmlContent;
     private String description;
     @JsonSerialize(using = ToStringSerializer.class)
     private Long likeCount;

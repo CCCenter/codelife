@@ -2,6 +2,7 @@ package com.codelife.cloud.comment.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.codelife.cloud.annotations.LoginRequired;
+import com.codelife.cloud.comment.service.QuestionService;
 import com.codelife.cloud.dto.CommentDTO;
 import com.codelife.cloud.dto.MemberDTO;
 import com.codelife.cloud.dto.PageDTO;
@@ -9,6 +10,7 @@ import com.codelife.cloud.dto.QuestionDTO;
 import com.codelife.cloud.entities.Comment;
 import com.codelife.cloud.entities.CommonResult;
 import com.codelife.cloud.entities.Member;
+import com.codelife.cloud.entities.Question;
 import com.codelife.cloud.service.CommentService;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,6 +25,7 @@ public class CommentController {
     @Resource
     private CommentService commentService;
 
+
     @GetMapping("/listByQuestion/{id}/{currentPage}/{size}")
     public CommonResult listByQuestion(@PathVariable("id") Long id,@PathVariable("currentPage") Integer currentPage, @PathVariable("size") Integer size) {
         IPage<Comment> iPage = commentService.listByQuestion(new PageDTO(id,currentPage,size));
@@ -36,7 +39,7 @@ public class CommentController {
         MemberDTO user = (MemberDTO)request.getAttribute("member");
         if(user == null){
             String message = (String) request.getAttribute("message");
-            return new CommonResult(405,message);
+            return new CommonResult(700,message);
         }
         comment.setCommentator(user.getId());
         int i = commentService.create(comment);
@@ -82,6 +85,18 @@ public class CommentController {
         }
         int i = commentService.incLikeCount(comment);
         return new CommonResult(200,"success");
+    }
+
+    @GetMapping("/list/{currentPage}/{size}")
+    public CommonResult list(@PathVariable("currentPage") Integer currentPage, @PathVariable("size") Integer size){
+        IPage<Comment> iPage = commentService.list(new PageDTO(currentPage,size));
+        return new CommonResult(200,"success",iPage);
+    }
+
+    @GetMapping("/increased/{day}")
+    public CommonResult increased(@PathVariable("day") Integer day){
+        int increased = commentService.increased(day);
+        return new CommonResult(200,"success",increased);
     }
 
 }

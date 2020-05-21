@@ -59,6 +59,9 @@ public class MemberController {
     @GetMapping("/profile/{id}")
     public CommonResult findById(@PathVariable("id") Long id) {
         Member member = memberService.findById(id);
+        if(member == null){
+            return new CommonResult(404,"NotFound");
+        }
         return new CommonResult(200,"success",new MemberDTO(member));
     }
 
@@ -75,7 +78,7 @@ public class MemberController {
      * @param request
      * @return
      */
-    @GetMapping("/disable/{id}")
+    @PostMapping("/disable/{id}")
     @LoginRequired
     public CommonResult disable(@PathVariable("id") Long id,HttpServletRequest request) {
         MemberDTO user = (MemberDTO)request.getAttribute("member");
@@ -95,7 +98,7 @@ public class MemberController {
      * @param request
      * @return
      */
-    @GetMapping("/enable/{id}")
+    @PostMapping("/enable/{id}")
     @LoginRequired
     public CommonResult enable(@PathVariable("id") Long id,HttpServletRequest request) {
         MemberDTO user = (MemberDTO)request.getAttribute("member");
@@ -150,4 +153,11 @@ public class MemberController {
         Member byUsername = memberService.findByUsername(username);
         return new CommonResult(200,"success",byUsername);
     }
+
+    @GetMapping("/increased/{day}")
+    public CommonResult increased(@PathVariable("day") Integer day){
+        int increased = memberService.increased(day);
+        return new CommonResult(200,"success",increased);
+    }
+
 }

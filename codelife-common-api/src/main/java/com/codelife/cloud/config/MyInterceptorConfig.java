@@ -8,10 +8,10 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class MyInterceptorConfig extends WebMvcConfigurerAdapter {
+public class MyInterceptorConfig implements WebMvcConfigurer {
     static final String ORIGINS[] = new String[] { "GET", "POST", "PUT", "DELETE" };
     //改用过滤器CorsFilter 来配置跨域，由于Filter的位置是在Interceptor之前的，问题得到解决
     @Bean

@@ -5,6 +5,8 @@ import com.codelife.cloud.dto.CommentDTO;
 import com.codelife.cloud.dto.PageDTO;
 import com.codelife.cloud.entities.Comment;
 
+import javax.servlet.http.HttpServletRequest;
+
 public interface CommentService {
     IPage<Comment> listByQuestion(PageDTO pageDTO);
     IPage<Comment> listByComment(PageDTO pageDTO);
@@ -13,4 +15,6 @@ public interface CommentService {
     int incCommentCount(Comment comment);
     int deleteById(Long id);
     CommentDTO findById(Long id);
+    IPage list(PageDTO pageDTO);
+    int increased(Integer day);
 }

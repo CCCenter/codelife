@@ -21,4 +21,5 @@ public interface CommentService {
     @DeleteMapping("/deleteById/{commentId}")
     @LoginRequired
     CommonResult deleteById(@PathVariable("commentId") Long commentId, HttpServletRequest request);
+
 }

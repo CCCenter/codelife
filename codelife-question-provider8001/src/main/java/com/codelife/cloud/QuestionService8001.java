@@ -15,11 +15,6 @@ public class QuestionService8001 {
     public static void main(String[] args) {
         SpringApplication.run(QuestionService8001.class,args);
     }
-    //mybatis 分页插件
-    @Bean
-    public PaginationInterceptor paginationInterceptor() {
-        return new PaginationInterceptor();
-    }
 
     @Bean
     public ObjectMapper getObjectMapper(){

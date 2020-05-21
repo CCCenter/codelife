@@ -122,23 +122,27 @@ public class PassportController {
     public String callback(@RequestParam(name = "code") String code){//spring 自动把上下文的request 放入
         Map<String, Object> accessMap = githubProvider.getAccessToken(code);
         Map<String, Object> userInfo = githubProvider.getUserInfo((String) accessMap.get("access_token"));
-        Long uid = Long.valueOf(String.valueOf(userInfo.get("id")));
-        OauthCheckDTO oauthCheckDTO = new OauthCheckDTO(uid, Member.GITHUB);
-        CommonResult result = memberService.checkOauth(oauthCheckDTO);
-        Member oauthMember = new Member();
-        if (result.getData() == null) {
-            oauthMember.setSource(Member.GITHUB);
-            oauthMember.setSourceUid(uid);
-            oauthMember.setNickName((String) userInfo.get("name"));
-            oauthMember.setAvatar((String) userInfo.get("avatar_url"));
-            oauthMember.setCity((String) userInfo.get("location"));
-            CommonResult result1 = memberService.create(oauthMember);
-            oauthMember = objectMapper.convertValue(result1.getData(), Member.class);
-        } else {
-            oauthMember = objectMapper.convertValue(result.getData(), Member.class);
-        }
-        String token = jwtUtils.createJwt(String.valueOf(oauthMember.getId()), oauthMember.getNickName(), null);
+        if(userInfo != null){
+            Long uid = Long.valueOf(String.valueOf(userInfo.get("id")));
+            OauthCheckDTO oauthCheckDTO = new OauthCheckDTO(uid, Member.GITHUB);
+            CommonResult result = memberService.checkOauth(oauthCheckDTO);
+            Member oauthMember = new Member();
+            if (result.getData() == null) {
+                oauthMember.setSource(Member.GITHUB);
+                oauthMember.setSourceUid(uid);
+                oauthMember.setNickName((String) userInfo.get("name"));
+                oauthMember.setAvatar((String) userInfo.get("avatar_url"));
+                oauthMember.setCity((String) userInfo.get("location"));
+                CommonResult result1 = memberService.create(oauthMember);
+                oauthMember = objectMapper.convertValue(result1.getData(), Member.class);
+            } else {
+                oauthMember = objectMapper.convertValue(result.getData(), Member.class);
+            }
+            String token = jwtUtils.createJwt(String.valueOf(oauthMember.getId()), oauthMember.getNickName(), null);
 
-        return "redirect:http://localhost:8080/#/loading?token=" + token;
+            return "redirect:http://localhost:8080/#/loading?token=" + token;
+        }else{
+            return "redirect:http://localhost:8080/#/login?errorCode=" + 500;
+        }
     }
 }

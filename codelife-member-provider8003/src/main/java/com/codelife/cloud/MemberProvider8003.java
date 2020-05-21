@@ -16,10 +16,6 @@ public class MemberProvider8003 {
         SpringApplication.run(MemberProvider8003.class,args);
     }
     @Bean
-    public PaginationInterceptor paginationInterceptor() {
-        return new PaginationInterceptor();
-    }
-    @Bean
     public ObjectMapper getObjectMapper(){
         return new ObjectMapper();
     }

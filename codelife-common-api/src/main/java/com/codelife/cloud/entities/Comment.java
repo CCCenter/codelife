@@ -19,6 +19,7 @@ public class Comment implements Serializable {
     private Long id;
     @JsonSerialize(using = ToStringSerializer.class)
     private Long parentId;
+    private Long questionId;
     private Integer type;
     private Date gmtCreate;
     private Date gmtModified;

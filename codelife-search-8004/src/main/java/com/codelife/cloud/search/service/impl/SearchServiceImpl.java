@@ -1,10 +1,16 @@
 package com.codelife.cloud.search.service.impl;
 
 import com.alibaba.fastjson.JSON;
+import com.codelife.cloud.dto.MemberDTO;
+import com.codelife.cloud.dto.PageDTO;
 import com.codelife.cloud.dto.QuestionDTO;
 import com.codelife.cloud.entities.CommonResult;
+import com.codelife.cloud.entities.Member;
+import com.codelife.cloud.entities.Question;
+import com.codelife.cloud.search.service.MemberService;
 import com.codelife.cloud.search.service.QuestionService;
 import com.codelife.cloud.service.SearchService;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Index;
@@ -36,6 +42,28 @@ public class SearchServiceImpl implements SearchService {
     @Resource
     private QuestionService questionService;
 
+    @Resource
+    private MemberService memberService;
+
+    @Resource
+    private ObjectMapper objectMapper;
+
+    @Override
+    public String put(Question question) {
+        CommonResult result = memberService.findById(question.getMemberId());
+        Member member = objectMapper.convertValue(result.getData(), Member.class);
+        QuestionDTO questionDTO = new QuestionDTO(new MemberDTO(member), question);
+        try {
+                Index put = new Index.Builder(gson.toJson(questionDTO)).index("codelife").type("question").id(questionDTO.getId().toString()).build();
+                jestClient.execute(put);
+                int i = 1;
+            } catch (IOException e) {
+                e.printStackTrace();
+                return "fail";
+            }
+        return "success";
+    }
+
     @Override
     public String put() {
         CommonResult commonResult = questionService.findAll();
@@ -56,8 +84,9 @@ public class SearchServiceImpl implements SearchService {
     }
 
     @Override
-    public List<QuestionDTO> list(String keyword) {
-        String dsl = getSearchDsl(keyword);
+    public PageDTO list(String keyword,Integer currentPage, Integer size) {
+        PageDTO pageDTO = null;
+        String dsl = getSearchDsl(keyword,currentPage,size);
         Search build = new Search.Builder(dsl).addIndex("codelife").addType("question").build();
         ArrayList<QuestionDTO> questionDTOS = new ArrayList<>();
         SearchResult searchResult = null;
@@ -66,9 +95,9 @@ public class SearchServiceImpl implements SearchService {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         if (searchResult != null) {
             List<SearchResult.Hit<QuestionDTO, Void>> hits = searchResult.getHits(QuestionDTO.class);
+            Long total = searchResult.getTotal();
             for (SearchResult.Hit<QuestionDTO, Void> hit : hits) {
                 QuestionDTO source = hit.source;
                 Map<String, List<String>> highlight = hit.highlight;
@@ -78,11 +107,13 @@ public class SearchServiceImpl implements SearchService {
                 }
                 questionDTOS.add(source);
             }
+            pageDTO = new PageDTO(currentPage, size, total, questionDTOS);
         }
-        return questionDTOS;
+
+        return pageDTO;
     }
 
-    private String getSearchDsl(String keyword) {
+    private String getSearchDsl(String keyword,Integer currentPage, Integer size) {
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
         BoolQueryBuilder boolQueryBuilder = new BoolQueryBuilder();
         //匹配标题
@@ -103,10 +134,12 @@ public class SearchServiceImpl implements SearchService {
         searchSourceBuilder.sort("gmtCreate", SortOrder.DESC);
 
         //from
-        searchSourceBuilder.from(0);
-
+        searchSourceBuilder.from((currentPage - 1 ) * size + 1);
+        //  1 - 5
+        //  6 - 10
+        // 11 - 15
         //size
-        searchSourceBuilder.size(20);
+        searchSourceBuilder.size(size);
         return searchSourceBuilder.toString();
     }
 }

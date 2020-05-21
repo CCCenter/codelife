@@ -1,6 +1,7 @@
 package com.codelife.cloud.dto;
 
 import com.codelife.cloud.entities.Comment;
+import com.codelife.cloud.entities.Question;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
@@ -20,6 +21,7 @@ public class CommentDTO implements Serializable {
     private Long id;
     @JsonSerialize(using = ToStringSerializer.class)
     private Long parentId;
+    private Long questionId;
     private Integer type;
     @JsonFormat(shape=JsonFormat.Shape.STRING,pattern="yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
     private Date gmtCreate;
@@ -38,6 +40,7 @@ public class CommentDTO implements Serializable {
     private String commentator2NickName;
     private String commentator2Avatar;
     private List<CommentDTO> comment2;
+    private String questionTitle;
 
     public CommentDTO(Comment comment){
         this.id = comment.getId();
@@ -55,6 +58,7 @@ public class CommentDTO implements Serializable {
     public CommentDTO(Comment comment, MemberDTO memberDTO) {
         this.id = comment.getId();
         this.parentId = comment.getParentId();
+        this.questionId = comment.getQuestionId();
         this.type = comment.getType();
         this.gmtCreate = comment.getGmtCreate();
         this.gmtModified = comment.getGmtModified();
@@ -70,6 +74,7 @@ public class CommentDTO implements Serializable {
     public CommentDTO(Comment comment, MemberDTO memberDTO,MemberDTO memberDTO2) {
         this.id = comment.getId();
         this.parentId = comment.getParentId();
+        this.questionId = comment.getQuestionId();
         this.type = comment.getType();
         this.gmtCreate = comment.getGmtCreate();
         this.gmtModified = comment.getGmtModified();

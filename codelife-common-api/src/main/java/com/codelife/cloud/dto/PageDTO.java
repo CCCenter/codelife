@@ -14,9 +14,24 @@ public class PageDTO {
     private Long id;
     private Integer currentPage;
     private Integer size;
+    private Long total;
+    private Object records;
+
+    public PageDTO(Long id, Integer currentPage, Integer size) {
+        this.id = id;
+        this.currentPage = currentPage;
+        this.size = size;
+    }
 
     public PageDTO(Integer currentPage, Integer size) {
         this.currentPage = currentPage;
         this.size = size;
+    }
+
+    public PageDTO(Integer currentPage, Integer size, Long total, Object records) {
+        this.currentPage = currentPage;
+        this.size = size;
+        this.total = total;
+        this.records = records;
     }
 }

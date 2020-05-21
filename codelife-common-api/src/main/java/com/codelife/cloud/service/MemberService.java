@@ -9,12 +9,12 @@ import com.codelife.cloud.entities.Member;
 public interface MemberService {
     Member create(RegisterMemberDTO registerMemberDTO);
     Member findById(Long id);
-    IPage<Member> list(PageDTO pageDTO);
+    IPage list(PageDTO pageDTO);
     Member findByUsername(String username);
     Member verify(Member member);
     Member checkOauth(OauthCheckDTO oauthCheckDTO);
     boolean phoneCheck(String phoneNumber);
     int deleteById(Long id);
     int updateById(Member member);
-
+    int increased(Integer day);
 }

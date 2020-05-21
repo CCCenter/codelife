@@ -19,7 +19,7 @@ public class Search8004 {
     }
 
     @Bean
-    public ObjectMapper getObjectMapper(){
+    public ObjectMapper objectMapper(){
         return new ObjectMapper();
     }
 

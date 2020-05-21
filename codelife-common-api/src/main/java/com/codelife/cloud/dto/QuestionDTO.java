@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.apache.commons.lang3.StringUtils;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -14,7 +13,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class QuestionDTO implements Serializable {
+public class QuestionDTO implements Serializable{
     @JsonSerialize(using = ToStringSerializer.class)
     private Long memberId;
     private String memberNickName;
@@ -22,7 +21,8 @@ public class QuestionDTO implements Serializable {
     @JsonSerialize(using = ToStringSerializer.class)
     private Long id;
     private String title;
-    private String content;
+    private String valueContent;
+    private String htmlContent;
     private String description;
     @JsonSerialize(using = ToStringSerializer.class)
     private Long likeCount;
@@ -32,7 +32,8 @@ public class QuestionDTO implements Serializable {
     private Long commentCount;
     private Date gmtCreate;
     private Date gmtModified;
-    private String tags[];
+    private String tags;
+    private Long hotScore;
 
     public QuestionDTO(MemberDTO memberDTO, Question question) {
         this.memberNickName = memberDTO.getNickName();
@@ -40,16 +41,15 @@ public class QuestionDTO implements Serializable {
         this.id = question.getId();
         this.title = question.getTitle();
         this.memberId = question.getMemberId();
-        this.content = question.getContent();
+        this.htmlContent = question.getHtmlContent();
+        this.valueContent = question.getValueContent();
         this.likeCount = question.getLikeCount();
         this.viewCount = question.getViewCount();
         this.commentCount = question.getCommentCount();
         this.gmtCreate = question.getGmtCreate();
         this.description = question.getDescription();
         this.gmtModified = question.getGmtModified();
-        if (StringUtils.isNotBlank(question.getTags())) {
-            this.tags = question.getTags().trim().split(",");
-        }
-
+        this.tags = question.getTags();
+        this.hotScore = question.getViewCount() + 5 * question.getCommentCount() +  4 * question.getLikeCount();
     }
 }

@@ -3,10 +3,12 @@ package com.codelife.cloud.member.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.codelife.cloud.dto.MemberDTO;
 import com.codelife.cloud.dto.OauthCheckDTO;
 import com.codelife.cloud.dto.PageDTO;
 import com.codelife.cloud.dto.RegisterMemberDTO;
 import com.codelife.cloud.entities.Member;
+import com.codelife.cloud.entities.Question;
 import com.codelife.cloud.member.mapper.MemberMapper;
 import com.codelife.cloud.member.util.PhoneCode;
 import com.codelife.cloud.service.MemberService;
@@ -16,6 +18,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 @Slf4j
@@ -55,7 +59,15 @@ public class MemberServiceImpl implements MemberService {
         Page page = new Page(pageDTO.getCurrentPage(),pageDTO.getSize(),count);
         QueryWrapper<Member> queryWrapper = new QueryWrapper<>();
         queryWrapper.orderByAsc("id");
-        return memberMapper.selectPage(page, queryWrapper);
+        IPage<Member> iPage = memberMapper.selectPage(page, queryWrapper);
+        List<Member> records = iPage.getRecords();
+        List newRecords = new ArrayList<>();
+        for (Member record : records) {
+            MemberDTO memberDTO = new MemberDTO(record);
+            newRecords.add(memberDTO);
+        }
+        iPage.setRecords(newRecords);
+        return iPage;
     }
 
 
@@ -112,4 +124,11 @@ public class MemberServiceImpl implements MemberService {
         return memberMapper.updateById(member);
     }
 
+    @Override
+    public int increased(Integer day) {
+        QueryWrapper<Member> queryWrapper = new QueryWrapper<>();
+        queryWrapper.last("where DATE_SUB(CURDATE(), INTERVAL "+ day + " DAY) <= date(create_time)");
+        Integer integer = memberMapper.selectCount(queryWrapper);
+        return integer;
+    }
 }

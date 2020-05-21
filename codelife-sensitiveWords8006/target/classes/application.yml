@@ -1,0 +1,45 @@
+server:
+  port: 8006
+spring:
+  application:
+    name: sensitive-service
+  cloud:
+    nacos:
+      discovery: #Nacos注册中心地址
+        server-addr: localhost:8848
+  redis:
+    host: 192.168.142.132
+    port: 6379
+    database: 0
+
+  http:
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/codelife?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    dbcp2:
+      min-idle: 5                                            # 数据库连接池的最小维持连接数
+      initial-size: 5                                       # 初始化连接数
+      max-total: 5                                          # 最大连接数
+      max-wait-millis: 200
+
+feign:
+  hystrix:
+    enabled: true
+
+logging:
+  level:
+    io:
+      seata: info
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志

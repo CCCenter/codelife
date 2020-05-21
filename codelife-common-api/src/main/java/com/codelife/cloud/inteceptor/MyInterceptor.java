@@ -10,8 +10,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.http.Header;
 import org.apache.http.message.BasicHeader;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.request.async.TimeoutCallableProcessingInterceptor;
 import org.springframework.web.method.HandlerMethod;
+import org.springframework.web.servlet.config.annotation.AsyncSupportConfigurer;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
@@ -39,6 +42,7 @@ public class MyInterceptor extends HandlerInterceptorAdapter {
         String authorization = request.getHeader("Authorization");
         if (StringUtils.isBlank(authorization)) {
             //如果请求头 Authorization 为空 重定向到登陆操作
+            System.out.println("没有身份信息");
             return true;
         }
         // 不为空 取出token 验证token真伪
@@ -47,6 +51,10 @@ public class MyInterceptor extends HandlerInterceptorAdapter {
         Map map = JSON.parseObject(resultJson, Map.class);
         if(map == null){
             request.setAttribute("message","fail");
+            return true;
+        }
+        if(map.get("data") == null){
+            request.setAttribute("message","token失效");
             return true;
         }
         //取出id 传入接口

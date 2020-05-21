@@ -15,6 +15,8 @@
         <module name="codelife-passport9000" />
         <module name="codelife-question-provider8001" />
         <module name="codelife-search-8004" />
+        <module name="codelife-sensitiveWords8006" />
+        <module name="codelife-tag8005" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +24,7 @@
       <module name="codelife-comment-provicer8002" target="1.8" />
       <module name="codelife-comment8002" target="1.8" />
       <module name="codelife-question-consumer7001" target="1.8" />
+      <module name="sensitive-words-master" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

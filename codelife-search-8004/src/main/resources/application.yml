@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: search
+    name: search-service
   cloud:
     nacos:
       discovery: #Nacos注册中心地址

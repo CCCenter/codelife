@@ -8,6 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -18,13 +19,19 @@ public class MemberDTO implements Serializable {
     @JsonSerialize(using = ToStringSerializer.class)
     private Long id;
     private String nickName;
+    private String username;
+    private String phone;
     private String avatar;
     private Integer role;
+    private Date createTime;
 
     public MemberDTO(Member member) {
+        this.username = member.getUsername();
         this.id = member.getId();
         this.nickName = member.getNickName();
+        this.phone = member.getPhone();
         this.avatar = member.getAvatar();
         this.role = member.getRole();
+        this.createTime = member.getCreateTime();
     }
 }
