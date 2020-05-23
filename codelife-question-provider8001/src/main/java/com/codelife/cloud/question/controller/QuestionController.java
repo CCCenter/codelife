@@ -64,6 +64,12 @@ public class QuestionController {
         IPage list = questionService.listByTag(tag,new PageDTO(currentPage,size));
         return new CommonResult(200,"success",list);
     }
+    @RequestMapping(value = "/question/listForQueryStr/{qStr}/{currentPage}/{size}", method = RequestMethod.GET)
+    public CommonResult listForQueryStr(@PathVariable("qStr") String qStr,@PathVariable("currentPage") Integer currentPage, @PathVariable("size") Integer size){
+        IPage list = questionService.listForQueryStr(qStr,new PageDTO(currentPage,size));
+        return new CommonResult(200,"success",list);
+    }
+
     @RequestMapping(value = "/question/hotList", method = RequestMethod.GET)
     public CommonResult hotList(){
         List list = questionService.hotList();
@@ -131,11 +137,6 @@ public class QuestionController {
 
     @RequestMapping(value = "/question/incCommentCount", method = RequestMethod.POST )
     public CommonResult incCommentCount(@RequestBody Question question){
-//        MemberDTO user = (MemberDTO)request.getAttribute("member");
-//        if(user == null){
-//            String message = (String) request.getAttribute("message");
-//            return new CommonResult(700,message);
-//        }
         int i = questionService.incCommentCount(question);
         return new CommonResult(200,"success");
     }

@@ -61,7 +61,6 @@ public class MyInterceptor extends HandlerInterceptorAdapter {
         String status = String.valueOf(map.get("code")).trim();
         if(!"700".equals(status)){
             Object data = map.get("data");
-
             MemberDTO memberDTO = objectMapper.convertValue(data, MemberDTO.class);
             if(Member.FORBIDDEN.equals(memberDTO.getRole())){
                 request.setAttribute("message","用户被禁用");

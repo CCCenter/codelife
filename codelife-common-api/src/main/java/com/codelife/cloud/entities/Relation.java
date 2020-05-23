@@ -7,11 +7,17 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class Tag {
+@NoArgsConstructor
+public class Relation {
+    public static final Integer FOLLOW_QUESTION = 0;
+    public static final Integer FOLLOW_MEMBER = 1;
+    public static final Integer LIKE_QUESTION = 2;
     @JsonSerialize(using = ToStringSerializer.class)
     private Long id;
-    private String tagType;
-    private String tagName;
+    private Long questionId;
+    private Long memberId;
+    private Long commentId;
+    private Long userId;
+    private Integer type;
 }

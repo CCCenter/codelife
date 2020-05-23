@@ -17,7 +17,6 @@
         <module>codelife-member-provider8003</module>
         <module>codelife-search-8004</module>
         <module>codelife-dfs9001</module>
-        <module>codelife-manager7000</module>
         <module>codelife-tag8005</module>
         <module>codelife-sensitiveWords8006</module>
     </modules>

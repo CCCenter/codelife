@@ -22,4 +22,5 @@ public interface QuestionService {
     int increased(Integer day);
     List findAll();
     List hotList();
+    IPage<QuestionDTO> listForQueryStr(String qStr ,PageDTO pageDTO);
 }

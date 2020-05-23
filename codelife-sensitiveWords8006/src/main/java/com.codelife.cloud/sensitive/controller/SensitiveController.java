@@ -2,6 +2,7 @@ package com.codelife.cloud.sensitive.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.codelife.cloud.annotations.LoginRequired;
+import com.codelife.cloud.dto.MemberDTO;
 import com.codelife.cloud.entities.CommonResult;
 import com.codelife.cloud.entities.Member;
 import com.codelife.cloud.entities.SensitiveWords;
@@ -30,7 +31,7 @@ public class SensitiveController {
     @PostMapping("/create")
     @LoginRequired
     public CommonResult create(@RequestBody SensitiveWords sensitiveWords,HttpServletRequest request){
-        Member member = (Member) request.getAttribute("member");
+        MemberDTO member = (MemberDTO) request.getAttribute("member");
         if(member == null){
             return new CommonResult(700,"未登录");
         }else if (member.getRole().equals(Member.MANGER)){
@@ -46,13 +47,13 @@ public class SensitiveController {
     @DeleteMapping("/delete/{id}")
     @LoginRequired
     public CommonResult delete(@PathVariable("id") Long id, HttpServletRequest request){
-        Member member = (Member) request.getAttribute("member");
+        MemberDTO member = (MemberDTO) request.getAttribute("member");
         if(member == null){
             return new CommonResult(700,"未登录");
         }else if (member.getRole().equals(Member.MANGER)){
-            sensitiveService.deleteById(id);
             SensitiveWords sensitiveWord = sensitiveService.getById(id);
             filter.remove(sensitiveWord.getSensitiveWord());
+            sensitiveService.deleteById(id);
             return new CommonResult(200,"success");
         }else{
             return new CommonResult(405,"权限不足");

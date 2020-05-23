@@ -11,6 +11,7 @@
       <set>
         <option value="$PROJECT_DIR$/code-question-consumer7001/pom.xml" />
         <option value="$PROJECT_DIR$/codelife-comment8002/pom.xml" />
+        <option value="$PROJECT_DIR$/codelife-manager7000/pom.xml" />
         <option value="$PROJECT_DIR$/codelife-question-consumer7001/pom.xml" />
       </set>
     </option>

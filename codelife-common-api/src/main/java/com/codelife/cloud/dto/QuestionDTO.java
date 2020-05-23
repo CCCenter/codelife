@@ -32,6 +32,7 @@ public class QuestionDTO implements Serializable{
     private Long commentCount;
     private Date gmtCreate;
     private Date gmtModified;
+    private Integer isLike;
     private String tags;
     private Long hotScore;
 
@@ -50,6 +51,8 @@ public class QuestionDTO implements Serializable{
         this.description = question.getDescription();
         this.gmtModified = question.getGmtModified();
         this.tags = question.getTags();
-        this.hotScore = question.getViewCount() + 5 * question.getCommentCount() +  4 * question.getLikeCount();
+        if(question.getViewCount() != null){
+            this.hotScore = question.getViewCount() + 5 * question.getCommentCount() +  4 * question.getLikeCount();
+        }
     }
 }

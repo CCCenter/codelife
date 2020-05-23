@@ -15,7 +15,7 @@ spring:
           enabled: true  #开启注册中心路由功能
           lower-case-service-id: true
       routes:
-      - id: question_routh
+      - id: question
         uri: lb://question-service #此处如果有问题，请注意依赖spring-cloud-starter-netflix-eureka-client依赖不能错
         predicates:
         - Path=/question/**

@@ -18,4 +18,8 @@
     <update id="incCommentCount" parameterType="com.codelife.cloud.entities.Question">
       update question set comment_count = comment_count + #{commentCount} where id = #{id};
     </update>
+
+    <select id="listForQueryStr" parameterType="String">
+        select * from question where title regexp #{qStr} ORDER BY gmt_create DESC
+    </select>
 </mapper>

@@ -10,7 +10,6 @@
         <module name="codelife-common-api" />
         <module name="codelife-dfs9001" />
         <module name="codelife-gateway9527" />
-        <module name="codelife-manager7000" />
         <module name="codelife-member-provider8003" />
         <module name="codelife-passport9000" />
         <module name="codelife-question-provider8001" />
@@ -23,6 +22,7 @@
       <module name="code-question-consumer7001" target="1.8" />
       <module name="codelife-comment-provicer8002" target="1.8" />
       <module name="codelife-comment8002" target="1.8" />
+      <module name="codelife-manager7000" target="1.8" />
       <module name="codelife-question-consumer7001" target="1.8" />
       <module name="sensitive-words-master" target="1.8" />
     </bytecodeTargetLevel>

@@ -12,4 +12,5 @@ public interface QuestionMapper extends BaseMapper<Question> {
     int incLikeCount(Question question);
 
     int incCommentCount(Question question);
+
 }

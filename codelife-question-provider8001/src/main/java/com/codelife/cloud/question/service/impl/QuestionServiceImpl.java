@@ -63,10 +63,11 @@ public class QuestionServiceImpl implements QuestionService {
         queryWrapper.last("where tags regexp" + "'"+ tag +"'");
         return questionMapper.selectCount(queryWrapper);
     }
+
     @Override
     public IPage<QuestionDTO> listByTag(String tag,PageDTO pageDTO){
         QueryWrapper<Question> queryWrapper = new QueryWrapper<>();
-        queryWrapper.last("where tags regexp" + "'"+ tag +"'");
+        queryWrapper.last("where tags regexp " + "'"+ tag +"'");
         Page<Question> page = new Page(pageDTO.getCurrentPage(),pageDTO.getSize());
         IPage iPage = null;
         try{
@@ -145,7 +146,7 @@ public class QuestionServiceImpl implements QuestionService {
             if(questionDTOS.size() > 10){
                 questionDTOS = questionDTOS.subList(0,11);
             }
-            redisUtil.set("hotList",JSON.toJSONString(questionDTOS),24 * 60 * 60);
+            redisUtil.set("hotList",JSON.toJSONString(questionDTOS),60 * 60);
         }else{
             System.out.println("from redis");
             String hotList = String.valueOf(redisUtil.get("hotList"));
@@ -153,6 +154,28 @@ public class QuestionServiceImpl implements QuestionService {
         }
         return questionDTOS;
     }
+    @Override
+    public IPage<QuestionDTO> listForQueryStr(String qStr ,PageDTO pageDTO) {
+        Integer count = questionMapper.selectCount(null);
+        Page page = new Page(pageDTO.getCurrentPage(),pageDTO.getSize(),count);
+        QueryWrapper<Question> queryWrapper = new QueryWrapper<>();
+
+        queryWrapper.last("where title regexp " +  "'"+ qStr +"'ORDER BY gmt_create DESC");
+        IPage iPage = questionMapper.selectPage(page, queryWrapper);
+        List records = iPage.getRecords();
+        List<QuestionDTO> questionDTOS = new ArrayList<>();
+        for (Object record : records) {
+
+            CommonResult result = memberService.findById(((Question) record).getMemberId());
+            Object obj = result.getData();
+            Member member = objectMapper.convertValue(obj, Member.class);
+            QuestionDTO questionDTO = new QuestionDTO(new MemberDTO(member),(Question) record);
+            questionDTOS.add(questionDTO);
+        }
+        iPage.setRecords(questionDTOS);
+        return iPage;
+    }
+
 
     @Override
     public IPage<QuestionDTO> list(PageDTO pageDTO) {

@@ -1,6 +1,8 @@
 package com.codelife.cloud.dto;
 
 import com.codelife.cloud.entities.SensitiveWords;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,6 +13,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SensitiveWordsDTO implements Serializable {
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long id;
     private String sensitiveWord;
     private Long memberId;

@@ -2,65 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="731afbf1-6d9f-4221-aef7-adc9a382b57e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/CommentService8002.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/CommentService8002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-comment-provider8002/target/classes/com/codelife/cloud/CommentService8002.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-comment-provider8002/target/classes/com/codelife/cloud/CommentService8002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-comment-provider8002/target/classes/com/codelife/cloud/comment/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-comment-provider8002/target/classes/com/codelife/cloud/comment/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-comment-provider8002/target/classes/com/codelife/cloud/comment/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-comment-provider8002/target/classes/com/codelife/cloud/comment/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-comment-provider8002/target/classes/com/codelife/cloud/comment/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-comment-provider8002/target/classes/com/codelife/cloud/comment/service/impl/CommentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/config/MyInterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/config/MyInterceptorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/CommentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/MemberDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/PageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/PageDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/QuestionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/QuestionDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/SensitiveWordsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/SensitiveWordsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/TagDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/TagDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/TagTypeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/TagTypeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/SensitiveWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/SensitiveWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/TagType.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/TagType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/inteceptor/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/inteceptor/MyInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/SearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/config/MyInterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/config/MyInterceptorConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/CommentDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/CommentDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/MemberDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/MemberDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/PageDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/PageDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/QuestionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/QuestionDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/SensitiveWordsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/SensitiveWordsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/TagDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/TagDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/TagTypeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/dto/TagTypeDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/SensitiveWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/SensitiveWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/Tag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/TagType.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/entities/TagType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/inteceptor/MyInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/inteceptor/MyInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/service/CommentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/service/SearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-common-api/target/classes/com/codelife/cloud/service/SearchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-member-provider8003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-member-provider8003/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/MemberProvider8003.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/MemberProvider8003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-gateway9527/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/Manager7000.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/controller/ManagerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/PassportService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/QuestionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/impl/ManagerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/target/classes/com/codelife/cloud/Manager7000.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/target/classes/com/codelife/cloud/manager/controller/ManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/target/classes/com/codelife/cloud/manager/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/target/classes/com/codelife/cloud/manager/service/MemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/target/classes/com/codelife/cloud/manager/service/PassportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/target/classes/com/codelife/cloud/manager/service/QuestionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-manager7000/target/classes/com/codelife/cloud/manager/service/impl/ManagerServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/impl/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-member-provider8003/target/classes/com/codelife/cloud/MemberProvider8003.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-member-provider8003/target/classes/com/codelife/cloud/MemberProvider8003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/util/PhoneCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/util/PhoneCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-member-provider8003/target/classes/com/codelife/cloud/member/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-member-provider8003/target/classes/com/codelife/cloud/member/controller/MemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/controller/PassportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/controller/PassportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-passport9000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-passport9000/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-passport9000/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-passport9000/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-passport9000/target/classes/com/codelife/cloud/passport/controller/PassportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-passport9000/target/classes/com/codelife/cloud/passport/controller/PassportController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/QuestionService8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/QuestionService8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-member-provider8003/target/classes/com/codelife/cloud/member/util/PhoneCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-member-provider8003/target/classes/com/codelife/cloud/member/util/PhoneCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/mapper/QuestionMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/QuestionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/com/codelife/cloud/QuestionService8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/com/codelife/cloud/QuestionService8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/com/codelife/cloud/question/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/com/codelife/cloud/question/controller/QuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/com/codelife/cloud/question/controller/test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/com/codelife/cloud/question/service/impl/QuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/com/codelife/cloud/question/service/impl/QuestionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/Search8004.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/Search8004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-question-provider8001/target/classes/mapper/QuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/QuestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/impl/SearchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/impl/SearchServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-search-8004/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-search-8004/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-search-8004/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-search-8004/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-search-8004/target/classes/com/codelife/cloud/Search8004.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-search-8004/target/classes/com/codelife/cloud/Search8004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-search-8004/target/classes/com/codelife/cloud/search/controller/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-search-8004/target/classes/com/codelife/cloud/search/controller/SearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelife-search-8004/target/classes/com/codelife/cloud/search/service/impl/SearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-search-8004/target/classes/com/codelife/cloud/search/service/impl/SearchServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-search-8004/target/classes/com/codelife/cloud/search/service/impl/SearchServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/controller/SensitiveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/controller/SensitiveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-sensitiveWords8006/target/classes/com/codelife/cloud/sensitive/controller/SensitiveController.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-sensitiveWords8006/target/classes/com/codelife/cloud/sensitive/controller/SensitiveController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-tag8005/target/classes/com/codelife/cloud/tag/controller/TagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-tag8005/target/classes/com/codelife/cloud/tag/controller/TagController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelife-tag8005/target/classes/com/codelife/cloud/tag/controller/TagTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/codelife-tag8005/target/classes/com/codelife/cloud/tag/controller/TagTypeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,15 +98,18 @@
     <session id="-230645549">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="90" />
+          <entry key="project.closed" value="95" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="38" />
+          <entry key="project.open.time.1" value="39" />
           <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.128" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.140" value="1" />
           <entry key="project.open.time.153" value="1" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="17" />
           <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.43" value="2" />
@@ -113,7 +118,7 @@
           <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.53" value="4" />
-          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.54" value="2" />
           <entry key="project.open.time.55" value="4" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.57" value="4" />
@@ -142,47 +147,47 @@
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.97" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="134" />
+          <entry key="project.opened" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="34221" />
+          <entry key="java" value="36547" />
           <entry key="md" value="1" />
-          <entry key="txt" value="31" />
-          <entry key="xml" value="1230" />
-          <entry key="yml" value="623" />
+          <entry key="txt" value="41" />
+          <entry key="xml" value="1276" />
+          <entry key="yml" value="627" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="34222" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="JAVA" value="36548" />
+          <entry key="PLAIN_TEXT" value="41" />
           <entry key="SQL" value="21" />
-          <entry key="XML" value="1209" />
-          <entry key="YAML" value="623" />
+          <entry key="XML" value="1255" />
+          <entry key="YAML" value="627" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="34" />
+          <entry key="class" value="35" />
           <entry key="conf" value="1" />
-          <entry key="java" value="1314" />
+          <entry key="java" value="1427" />
           <entry key="md" value="2" />
           <entry key="pom" value="4" />
-          <entry key="txt" value="5" />
-          <entry key="xml" value="124" />
-          <entry key="yml" value="73" />
+          <entry key="txt" value="6" />
+          <entry key="xml" value="133" />
+          <entry key="yml" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="34" />
-          <entry key="JAVA" value="1314" />
+          <entry key="CLASS" value="35" />
+          <entry key="JAVA" value="1427" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="XML" value="128" />
-          <entry key="YAML" value="73" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="XML" value="137" />
+          <entry key="YAML" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages">
@@ -195,64 +200,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/QuestionServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/provider/GithubProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+            <state relative-caret-position="73">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/QuestionController.java">
+        <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/provider/WeiboProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="134" column="27" lean-forward="true" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="64" column="54" lean-forward="true" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/MemberService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+            <state relative-caret-position="106">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/MemberDTO.java">
+        <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/controller/PassportController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/impl/MemberServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Member.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="254">
+              <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -275,6 +244,7 @@
       <find>create</find>
       <find>incViewCount</find>
       <find>DEFAULT</find>
+      <find>veri</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -283,57 +253,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/filter/HandlerFilter.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/filter/XyRequestWrapper.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/filter/ParameterRequestWrapper.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/filter/ParamsFilter.java" />
-        <option value="$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagTypeController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/config/MyInterceptorConfig.java" />
-        <option value="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/CommentService8002.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/util/EmojiUtil.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/advice/EscapeSensitiveWordFilter.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/conf/Config.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/pom.xml" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/KWSeeker.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/util/AnalysisUtil.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/util/EndTagUtil.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/processor/Highlight.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/SimpleKWSeekerProcessor.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/processor/AbstractFragment.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/processor/IgnoreFragment.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/processor/WordFinder.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/processor/HTMLFragment.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/KWSeekerManage.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/resources/sensi_words.txt" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/StringPointer.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/SensitiveFilter.java" />
         <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/SensitiveWordUtils.java" />
         <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitiveWords8006.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/SensitiveWords.java" />
         <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/pom.xml" />
         <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/mapper/SensitiveMapper.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/SensitiveWordsDTO.java" />
         <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/service/MemberService.java" />
         <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/SensitiveWords8006.java" />
-        <option value="$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagController.java" />
-        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/QuestionService.java" />
         <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java" />
         <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/controller/ManagerController.java" />
         <option value="$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/CommentService.java" />
         <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/SensitiveService.java" />
-        <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/controller/SensitiveController.java" />
         <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/service/impl/SensitiveServiceImpl.java" />
         <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/config/SensitiveConfig.java" />
         <option value="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/service/impl/CommentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/QuestionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/QuestionController.java" />
         <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/MemberService.java" />
         <option value="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/impl/MemberServiceImpl.java" />
         <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/MemberDTO.java" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/mapper/RelationMapper.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/RelationService.java" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/RelationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/RelationController.java" />
+        <option value="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/task/UpdateTask.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/util/PhoneCode.java" />
+        <option value="$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java" />
+        <option value="$PROJECT_DIR$/codelife-gateway9527/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/advice/EscapeSensitiveWordFilter.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/TagDTO.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/TagTypeDTO.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/SensitiveWordsDTO.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/TagType.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Tag.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/SensitiveWords.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Relation.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/QuestionDTO.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Question.java" />
+        <option value="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/Search8004.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/mapper/QuestionMapper.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/inteceptor/MyInterceptor.java" />
+        <option value="$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagTypeController.java" />
+        <option value="$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagController.java" />
+        <option value="$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/controller/SensitiveController.java" />
+        <option value="$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/SearchQuestionDTO.java" />
+        <option value="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/impl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/QuestionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/mapper/QuestionMapper.xml" />
+        <option value="$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/controller/CommentController.java" />
       </list>
     </option>
   </component>
@@ -357,9 +327,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="-14" />
-    <option name="width" value="1710" />
+    <option name="x" value="170" />
+    <option name="y" value="-30" />
+    <option name="width" value="1523" />
     <option name="height" value="1104" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -386,7 +356,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -394,21 +363,124 @@
               <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
               <item name="codelife" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-common-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-common-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-common-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-common-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-common-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-common-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-passport9000" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-passport9000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-passport9000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-passport9000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-passport9000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-passport9000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="passport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codelife" type="462c0819:PsiDirectoryNode" />
+              <item name="codelife-passport9000" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="passport" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590085168717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590225270678" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -419,12 +491,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34717417" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.codelife.cloud.dfs.util" />
       <recent name="com.codelife.cloud.member.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.codelife.cloud.search.service" />
@@ -432,9 +507,6 @@
       <recent name="com.codelife.cloud.member.util" />
       <recent name="com.codelife.cloud.util" />
       <recent name="com.codelife.cloud.comment.mapper" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ideaworkSpaces\codelife\codelife-common-api\src\main\java\com\codelife\cloud\util\sensitive" />
@@ -462,7 +534,7 @@
     </option>
     <option name="contentProportion" value="0.23565574" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Search8004">
+  <component name="RunManager" selected="Spring Boot.dfs9001">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="codelife-comment-provicer8002" />
       <option name="VM_PARAMETERS" />
@@ -523,19 +595,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberProvider8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="codelife-member-provider8003" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codelife.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.MemberProvider8003" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Passport9000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="codelife-passport9000" />
       <extension name="coverage">
@@ -549,46 +608,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionService8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="codelife-question-provider8001" />
+    <configuration name="SensitiveWords8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="codelife-sensitiveWords8006" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codelife.cloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.QuestionService8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.SensitiveWords8006" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="codelife-search-8004" />
+    <configuration name="Tag8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="codelife-tag8005" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codelife.cloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.Search8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.Tag8005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dfs9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="codelife-dfs9001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codelife.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codelife.cloud.dfs9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.CommentService8002" />
-      <item itemvalue="Spring Boot.MemberProvider8003" />
       <item itemvalue="Spring Boot.Passport9000" />
-      <item itemvalue="Spring Boot.QuestionService8001" />
-      <item itemvalue="Spring Boot.Search8004" />
+      <item itemvalue="Spring Boot.Tag8005" />
+      <item itemvalue="Spring Boot.SensitiveWords8006" />
+      <item itemvalue="Spring Boot.CommentService8002" />
+      <item itemvalue="Spring Boot.dfs9001" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MemberProvider8003" />
-        <item itemvalue="Spring Boot.QuestionService8001" />
-        <item itemvalue="Spring Boot.Passport9000" />
+        <item itemvalue="Spring Boot.SensitiveWords8006" />
+        <item itemvalue="Spring Boot.Tag8005" />
+        <item itemvalue="Spring Boot.dfs9001" />
         <item itemvalue="Spring Boot.CommentService8002" />
-        <item itemvalue="Spring Boot.Search8004" />
+        <item itemvalue="Spring Boot.Passport9000" />
       </list>
     </recent_temporary>
   </component>
@@ -735,7 +807,12 @@
       <workItem from="1589779256624" duration="23797000" />
       <workItem from="1589858592149" duration="24106000" />
       <workItem from="1589959657745" duration="33450000" />
-      <workItem from="1590025499057" duration="27124000" />
+      <workItem from="1590025499057" duration="28722000" />
+      <workItem from="1590130385337" duration="13633000" />
+      <workItem from="1590146176905" duration="65000" />
+      <workItem from="1590146357339" duration="5268000" />
+      <workItem from="1590153434221" duration="18603000" />
+      <workItem from="1590191303906" duration="19145000" />
     </task>
     <servers />
   </component>
@@ -772,7 +849,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="635002000" />
+    <option name="totallyTimeSpent" value="693314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,7 +869,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25402144" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20911528" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
@@ -809,7 +886,7 @@
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.49932975" weight="0.25073314" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49932975" weight="0.32844576" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932975" weight="0.32599118" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49865952" visible="true" weight="0.32599118" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49865952" visible="true" weight="0.27272728" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -821,6 +898,41 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28351206" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.30543318" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5013405" side_tool="true" weight="0.34017596" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32599118" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3113069" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.398827" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32844576" />
+      <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.49932975" weight="0.25073314" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49932975" weight="0.32844576" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932975" weight="0.32599118" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49865952" visible="true" weight="0.49339208" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.22788204" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -841,14 +953,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/impl/MemberServiceImpl.java</url>
-          <line>56</line>
-          <properties class="com.codelife.cloud.member.service.impl.MemberServiceImpl" method="list">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/controller/CommentController.java</url>
@@ -911,22 +1015,10 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java</url>
+          <url>file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/inteceptor/MyInterceptor.java</url>
           <line>64</line>
           <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/provider/GithubProvider.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/provider/GithubProvider.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="76" />
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -990,415 +1082,363 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/processor/AbstractFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/processor/Highlight.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/MemberDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/SensitiveWordResult.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/OauthCheckDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/KeyWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="132">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/KWSeeker.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/CommentDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4017">
-          <caret line="206" column="9" lean-forward="true" selection-start-line="206" selection-start-column="9" selection-end-line="206" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-516">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/SimpleKWSeekerProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/CommentService8002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/KWSeekerManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="e#358#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/advice/EscapeSensitiveWordFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/resources/sensi_words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/PageDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="2896" column="18" selection-start-line="2896" selection-start-column="18" selection-end-line="2896" selection-end-column="18" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Java/jdk1.8.0_144/src.zip!/java/util/TreeSet.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/TagDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4158">
-          <caret line="254" column="16" selection-start-line="254" selection-start-column="15" selection-end-line="254" selection-end-column="16" />
-          <folding>
-            <element signature="e#9664#9665#0" expanded="true" />
-            <element signature="e#9710#9711#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="166">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/SensitiveNode.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/TagTypeDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/StringPointer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="166" column="22" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/SensitiveWordUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/sensitive/SensitiveFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/SensitiveWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="14" column="7" lean-forward="true" selection-end-line="44" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/mapper/SensitiveMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/service/impl/TagServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+        <state relative-caret-position="166">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/SensitiveWordsDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="166">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/SensitiveWords8006.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/service/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/mapper/QuestionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/QuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/CommentService.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/RegisterMemberDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/controller/ManagerController.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/TagType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="93" column="57" lean-forward="true" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#4710#4711#0" expanded="true" />
-            <element signature="e#4769#4770#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-manager7000/src/main/java/com/codelife/cloud/manager/service/CommentService.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Tag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="176">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/config/MyBatisPlusConfig.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/SensitiveWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="176">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/config/MyInterceptorConfig.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/controller/SensitiveController.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Relation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/config/SensitiveConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="101" column="1" lean-forward="true" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/service/impl/SensitiveServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/SensitiveService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1461">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/impl/SearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/QuestionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="134" column="27" lean-forward="true" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="64" column="54" lean-forward="true" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/MemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/service/impl/MemberServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        <state relative-caret-position="125">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="-185">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/MemberDTO.java">
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="211">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/QuestionDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/util/SensitiveWordUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/entities/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/Search8004.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/mapper/QuestionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/Tag8005.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-tag8005/src/main/java/com/codelife/cloud/tag/controller/TagController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/SensitiveWords8006.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-sensitiveWords8006/src/main/java/com.codelife.cloud/sensitive/controller/SensitiveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/Passport9000.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/inteceptor/MyInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/dto/SearchQuestionDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-search-8004/src/main/java/com/codelife/cloud/search/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/config/MyBatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/config/ComponentImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/java/com/codelife/cloud/question/service/impl/QuestionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="133" column="37" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-common-api/src/main/java/com/codelife/cloud/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-dfs9001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-question-provider8001/src/main/resources/mapper/QuestionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-dfs9001/src/main/java/com/codelife/cloud/dfs/controller/FileManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="27" column="82" lean-forward="true" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-comment-provider8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-member-provider8003/src/main/java/com/codelife/cloud/member/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="110" column="51" lean-forward="true" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="54" column="59" lean-forward="true" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-comment-provider8002/src/main/java/com/codelife/cloud/comment/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/provider/WeiboProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/provider/GithubProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codelife-passport9000/src/main/java/com/codelife/cloud/passport/controller/PassportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
         </state>
       </provider>
     </entry>

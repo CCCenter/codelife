@@ -25,13 +25,12 @@ public class CommentController {
     @Resource
     private CommentService commentService;
 
-
     @GetMapping("/listByQuestion/{id}/{currentPage}/{size}")
     public CommonResult listByQuestion(@PathVariable("id") Long id,@PathVariable("currentPage") Integer currentPage, @PathVariable("size") Integer size) {
         IPage<Comment> iPage = commentService.listByQuestion(new PageDTO(id,currentPage,size));
         return new CommonResult(200,"success",iPage);
-    }
 
+    }
 
     @PostMapping("/create")
     @LoginRequired

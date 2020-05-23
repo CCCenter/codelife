@@ -1,6 +1,7 @@
 package com.codelife.cloud.tag.controller;
 
 import com.codelife.cloud.annotations.LoginRequired;
+import com.codelife.cloud.dto.MemberDTO;
 import com.codelife.cloud.entities.CommonResult;
 import com.codelife.cloud.entities.Member;
 import com.codelife.cloud.entities.TagType;
@@ -36,7 +37,7 @@ public class TagTypeController {
     @PostMapping("/create")
     @LoginRequired
     CommonResult create(@RequestBody TagType tagType, HttpServletRequest request) {
-        Member member = (Member) request.getAttribute("member");
+        MemberDTO member = (MemberDTO) request.getAttribute("member");
         if (member != null && member.getRole().equals(Member.MANGER)) {
             tagTypeService.create(tagType);
             return new CommonResult(200, "success");
@@ -48,7 +49,7 @@ public class TagTypeController {
     @DeleteMapping("/delete/{id}")
     @LoginRequired
     CommonResult deleteById(@PathVariable("id") Long id, HttpServletRequest request) {
-        Member member = (Member) request.getAttribute("member");
+        MemberDTO member = (MemberDTO) request.getAttribute("member");
         if (member != null && member.getRole().equals(Member.MANGER)) {
             tagTypeService.deleteById(id);
             return new CommonResult(200, "success");
@@ -60,7 +61,7 @@ public class TagTypeController {
     @PostMapping("/updateById")
     @LoginRequired
     CommonResult updateById(@RequestBody TagType tagType, HttpServletRequest request) {
-        Member member = (Member) request.getAttribute("member");
+        MemberDTO member = (MemberDTO) request.getAttribute("member");
         if (member != null && member.getRole().equals(Member.MANGER)) {
             tagTypeService.updateById(tagType);
             return new CommonResult(200, "success");

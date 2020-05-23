@@ -45,7 +45,8 @@ public class MemberController {
     }
 
     @PostMapping("/phoneCheck")
-    public CommonResult phoneCheck (String phone) {
+    public CommonResult phoneCheck (@RequestBody RegisterMemberDTO registerMemberDTO) {
+        String phone = registerMemberDTO.getPhone();
         if(PhoneCode.isChinaPhoneLegal(phone)){
             if(memberService.phoneCheck(phone)){
                 return new CommonResult(200,"验证码发送成功");
