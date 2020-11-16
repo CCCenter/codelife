@@ -34,8 +34,8 @@ public class PhoneCode {
         final String product = "Dysmsapi";//短信API产品名称（短信产品名固定，无需修改）
         final String domain = "dysmsapi.aliyuncs.com";//短信API产品域名（接口地址固定，无需修改）
         //替换成你的AK
-        final String accessKeyId = "LTAI4G6RVJRcgeHnRGe7GU9A";//你的accessKeyId,参考本文档步骤2
-        final String accessKeySecret = "bunGAHAJbPdEb4LJXNAZF833Odgq29";//你的accessKeySecret，参考本文档步骤2
+        final String accessKeyId = "XXXXXXXX";//你的accessKeyId,参考本文档步骤2
+        final String accessKeySecret = "XXXXXXXX";//你的accessKeySecret，参考本文档步骤2
         //初始化ascClient,暂时不支持多region（请勿修改）
         IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", accessKeyId,
                 accessKeySecret);
